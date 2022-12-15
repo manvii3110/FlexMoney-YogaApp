@@ -26,6 +26,9 @@ After a successful payment, user data such as name, age, batch, and so on are sa
 ### 📌 FLOW CHART
 ![ER-Diagram](https://user-images.githubusercontent.com/70815887/207887112-f1a2e66b-fce4-47bd-8096-a6b1f63eb671.png)
 
+### 📌 ER DIAGRAM
+![Screenshot (561)](https://user-images.githubusercontent.com/70815887/207926273-e393a43b-d0b4-450c-83df-a04c982bbbf1.png)
+
 ### 📌 Working
 
 ### Form
