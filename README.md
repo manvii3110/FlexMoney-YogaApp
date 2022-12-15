@@ -1,5 +1,5 @@
-PEACE AS ONE - HEALS THE SOUL - YOGA APP
-This Yoga class application is a dynamic website that responds in real time and is highly scalable. This website was built entirely with the tech stacks HTML, CSS, Bootstrap, Node Js, and Mongodb (Database).
+#PEACE AS ONE - HEALS THE SOUL - YOGA APP
+###This Yoga class application is a dynamic website that responds in real time and is highly scalable. This website was built entirely with the tech stacks HTML, CSS, Bootstrap, Node Js, and Mongodb (Database).
 
 📌 Registration form
 1.The user must enter their name
