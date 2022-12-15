@@ -1,0 +1,84 @@
+<section class="vh-80" style="background-color:black;" >
+  
+  <div class="container h-80">
+    <div class="row d-flex justify-content-center align-items-center h-100">
+      <div class="col-lg-12 col-xl-11">
+        <div class="card text-black" style="border-radius: 25px, background-color:black;">
+          <div class="card-body p-md-5" style="background-color:black;">
+            <div class="row justify-content-center">
+              <div class="col-md-10 col-lg-6 col-xl-6 order-2 order-lg-1">
+
+                <p class="text-center h3 fw-normal mb-5 mx-1 mx-md-4 mt-4" style="color:orange;">PEACE AS ONE - HEALS THE SOUL</p>
+
+                 <div class="row justify-content-center text-center">
+                  {{#if errMsg}}
+                  <p class="form-text text-danger">
+                    {{errMsg}}
+                  </p>
+                  {{/if}}
+                </div>
+
+                <form action="/user/submit" method="post" class="mx-1 mx-md-4">
+
+                  <div class="d-flex flex-row align-items-center mb-4">
+                    <i class="fas fa-user fa-lg me-3 fa-fw"></i>
+                    <div class="form-outline flex-fill mb-0">
+                      <input type="text" id="form3Example1c" class="form-control" name="name"/>
+                      <label class="form-label" style="color: white;" for="form3Example1c"> Name</label>
+                    </div>
+                  </div>
+
+                  
+                  <div class="d-flex flex-row align-items-center mb-4">
+                    <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
+                    <div class="form-outline flex-fill mb-0">
+                      <input type="text" id="form3Example1c" class="form-control" name="age"/>
+                      <label class="form-label" style="color: white;" for="form3Example1c"> Age</label>
+                    </div>
+                  </div>
+                  <div class="d-flex flex-row align-items-center mb-4">
+                    <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
+                    <div class="form-outline flex-fill mb-0">
+        <select class="form-select" aria-label="Default select example" name="batch">
+  <option selected>6-7AM</option>
+  <option value="1">7-8AM</option>
+  <option value="2">8-9AM</option>
+  <option value="3">5-6PM</option>
+</select>
+                      <label class="form-label" style="color: white;" for="form3Example3c">Batch </label>
+                    </div>
+                  </div>
+                   <div class="d-flex flex-row align-items-center mb-4">
+                    <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
+                    <div class="form-outline flex-fill mb-0">
+        <select class="form-select" aria-label="Default select example" name="payment">
+  <option selected>500</option>
+ 
+</select>
+                      <label class="form-label" style="color: white;" for="form3Example3c">Payment </label>
+                    </div>
+                  </div>
+                  
+
+                 
+
+                  <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
+                    <button type="submi" class="btn btn-warning btn-lg" style="background-color: orange, color:white;">Submit</button>
+                  </div>
+
+                </form>
+
+              </div>
+              <div class="col-md-10 col-lg-8 col-xl-8  mt-10 align-items-center order-1 order-lg-2">
+                <video width="670" height="350" controls>
+  <source src="https://player.vimeo.com/external/416623477.sd.mp4?s=5dc9a80cebee7da273b65eb417118ec7f5691ffa&profile_id=164&oauth2_token_id=57447761" type="video/mp4">
+</video>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
