@@ -9,6 +9,9 @@
 4. Then run npm start command.
 5. Visit 'http://localhost:3000/'.
 
+### 📌 Deployed Link
+-Project Deployed on Railway App.
+-https://flexmoney-yogaapp-production.up.railway.app/
 
 ### 📌 Registration form
 1.The user must enter their name
