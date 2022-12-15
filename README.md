@@ -23,7 +23,7 @@
 ### 📌 Database
 After a successful payment, user data such as name, age, batch, and so on are saved in the mongodb database.
 
-### 📌 ER DIAGRAM
+### 📌 FLOW CHART
 ![ER-Diagram](https://user-images.githubusercontent.com/70815887/207887112-f1a2e66b-fce4-47bd-8096-a6b1f63eb671.png)
 
 ### 📌 Working
